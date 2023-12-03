@@ -1,7 +1,9 @@
 export default function Page() {
   return (
-    <div>
-      <p>Hello World</p>
+    <div className="flex justify-around">
+      <section>X</section>
+      <section>いもけん</section>
+      <section>検索</section>
     </div>
   );
 }
