@@ -1,7 +1,7 @@
 export default function Page() {
   return (
     <div className="flex justify-around">
-      <section className="flex flex-col items-start gap-5 text-lg">
+      <section className="flex flex-col items-start gap-3 text-lg">
         <button className="px-2 py-1 rounded-full hover:bg-gray-200">X</button>
         <button className="px-2 py-1 rounded-full hover:bg-gray-200">
           ホーム
