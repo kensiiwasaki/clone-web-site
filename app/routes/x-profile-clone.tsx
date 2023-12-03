@@ -2,18 +2,40 @@ export default function Page() {
   return (
     <div className="flex justify-around">
       <section className="flex flex-col items-start gap-5 text-lg">
-        <button>X</button>
-        <button>ホーム</button>
-        <button>話題を検索</button>
-        <button>通知</button>
-        <button>メッセージ</button>
-        <button>リスト</button>
-        <button>ブックマーク</button>
-        <button>コミュニティ</button>
-        <button>プレミアム</button>
-        <button>プロフィール</button>
-        <button>もっと見る</button>
-        <button>ポストする</button>
+        <button className="px-2 py-1 rounded-full hover:bg-gray-200">X</button>
+        <button className="px-2 py-1 rounded-full hover:bg-gray-200">
+          ホーム
+        </button>
+        <button className="px-2 py-1 rounded-full hover:bg-gray-200">
+          話題を検索
+        </button>
+        <button className="px-2 py-1 rounded-full hover:bg-gray-200">
+          通知
+        </button>
+        <button className="px-2 py-1 rounded-full hover:bg-gray-200">
+          メッセージ
+        </button>
+        <button className="px-2 py-1 rounded-full hover:bg-gray-200">
+          リスト
+        </button>
+        <button className="px-2 py-1 rounded-full hover:bg-gray-200">
+          ブックマーク
+        </button>
+        <button className="px-2 py-1 rounded-full hover:bg-gray-200">
+          コミュニティ
+        </button>
+        <button className="px-2 py-1 rounded-full hover:bg-gray-200">
+          プレミアム
+        </button>
+        <button className="px-2 py-1 rounded-full hover:bg-gray-200">
+          プロフィール
+        </button>
+        <button className="px-2 py-1 rounded-full hover:bg-gray-200">
+          もっと見る
+        </button>
+        <button className="px-2 py-1 rounded-full hover:bg-gray-200">
+          ポストする
+        </button>
       </section>
 
       <section>いもけん</section>
