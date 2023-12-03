@@ -1,8 +1,8 @@
 export default function Page() {
   return (
     <div className="flex justify-around">
-      <section className="flex flex-col items-start gap-5">
-        <p>X</p>
+      <section className="flex flex-col items-start gap-5 text-lg">
+        <button>X</button>
         <button>ホーム</button>
         <button>話題を検索</button>
         <button>通知</button>
@@ -15,7 +15,9 @@ export default function Page() {
         <button>もっと見る</button>
         <button>ポストする</button>
       </section>
+
       <section>いもけん</section>
+
       <section>検索</section>
     </div>
   );
