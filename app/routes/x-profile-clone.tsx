@@ -33,9 +33,9 @@ export default function Page() {
         <button className="px-3 py-2 rounded-full hover:bg-gray-200">
           もっと見る
         </button>
-        <button className="px-3 py-2 rounded-full hover:bg-gray-200">
-          ポストする
-        </button>
+        <div className="bg-blue-400 font-bold w-full text-center text-sm text-white rounded-full hover:bg-blue-500">
+          <button className="py-3">ポストする</button>
+        </div>
       </section>
 
       <section>いもけん</section>
