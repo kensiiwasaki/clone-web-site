@@ -1,3 +1,5 @@
+模写コーディング用のリポジトリ
+
 # Welcome to Remix!
 
 - [Remix Docs](https://remix.run/docs)
