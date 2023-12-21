@@ -1,6 +1,6 @@
 export default function Page() {
   return (
-    <div className="flex justify-around">
+    <div className="flex justify-center gap-6">
       <section className="flex flex-col items-start gap-3 text-lg">
         <button className="px-3 py-1 text-2xl rounded-full hover:bg-gray-200">
           X
@@ -40,7 +40,13 @@ export default function Page() {
         </div>
       </section>
 
-      <section>いもけん</section>
+      <section>
+        <div className="flex justify-between">
+          <button>←</button>
+          <h2>いもけん</h2>
+          <p>523 件のポスト</p>
+        </div>
+      </section>
 
       <section>検索</section>
     </div>
