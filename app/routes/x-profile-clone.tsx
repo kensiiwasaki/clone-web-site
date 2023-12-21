@@ -40,8 +40,8 @@ export default function Page() {
         </div>
       </section>
 
-      <section>
-        <div className="flex justify-between">
+      <section className="w-[650px]">
+        <div className="flex">
           <button>←</button>
           <h2>いもけん</h2>
           <p>523 件のポスト</p>
