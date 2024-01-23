@@ -11,7 +11,7 @@ const ChallengeComponent = () => {
         <span className="relative z-20 block text-[82px] leading-[60px] uppercase font-bold mt-[6px]">
           Days
         </span>
-        <span className="relative z-20 block text-lg leading-5 uppercase font-bold tracking-wider">
+        <span className="relative z-20 block text-[23px] leading-[20px] uppercase font-bold tracking-[0.04em]">
           CSS Challenge
         </span>
       </div>
