@@ -7,8 +7,8 @@ const ChallengeComponent = () => {
         <div className="relative h-24 w-48">
           <div className="absolute z-10 top-0 left-[-16px] h-10 w-5 bg-white rounded-sm shadow-md"></div>
           <div className="absolute z-20 top-0 left-0 h-24 w-6 bg-white rounded-sm shadow-md"></div>
-          <div className="absolute z-10 top-0 left-4 box-border h-24 w-24 rounded-full border-6 border-white shadow-md"></div>
-          <div className="absolute z-10 top-0 left-24 box-border h-24 w-24 rounded-full border-6 border-white shadow-md"></div>
+          <div className="absolute z-10 top-0 left-[17px] box-border h-[100px] w-[100px] rounded-full border-[24px] border-white shadow-md"></div>
+          <div className="absolute z-10 top-0 left-[100px] box-border h-[100px] w-[100px] rounded-full border-[24px] border-white shadow-md"></div>
         </div>
         <span className="relative z-20 block text-6xl leading-[60px] uppercase font-bold mt-1.5">
           Days
