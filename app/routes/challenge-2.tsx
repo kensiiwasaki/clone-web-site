@@ -8,7 +8,7 @@ const ChallengeComponent = () => {
   };
 
   return (
-    <div className="fixed inset-0 flex justify-center items-center bg-green-500">
+    <div className="h-100 w-100 fixed inset-0 flex justify-center items-center bg-green-500">
       <div className="relative">
         <div
           className={`menu-icon cursor-pointer z-50 w-20 ${
