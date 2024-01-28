@@ -18,7 +18,7 @@ const ChallengeComponent = () => {
         >
           <div
             className={`h-2 w-full bg-white rounded-md shadow transition-all duration-200 ease-in-out ${
-              isActive ? "transform rotate-45 translate-y-2.5" : ""
+              isActive ? "transform rotate-45 translate-y-1.5" : ""
             }`}
           ></div>
           <div
@@ -28,7 +28,7 @@ const ChallengeComponent = () => {
           ></div>
           <div
             className={`h-2 w-full bg-white rounded-md shadow transition-all duration-200 ease-in-out ${
-              isActive ? "transform -rotate-45 -translate-y-2.5" : ""
+              isActive ? "transform -rotate-45 -translate-y-1.5" : ""
             }`}
           ></div>
         </div>
