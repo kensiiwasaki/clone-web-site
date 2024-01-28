@@ -8,8 +8,8 @@ const ChallengeComponent = () => {
   };
 
   return (
-    <div className="h-100 w-100 fixed inset-0 flex justify-center items-center bg-green-500">
-      <div className="relative">
+    <div className="h-screen w-screen flex justify-center items-center bg-green-500">
+      <div className="relative h-64 w-64">
         <div
           className={`menu-icon cursor-pointer z-50 w-20 ${
             isActive ? "active" : ""
