@@ -17,18 +17,18 @@ const ChallengeComponent = () => {
           onClick={toggleMenuIcon}
         >
           <div
-            className={`h-2 w-full bg-white rounded-md shadow transition-all duration-200 ease-in-out ${
-              isActive ? "transform rotate-45 translate-y-1.5" : ""
+            className={`h-2 w-full bg-white rounded-md shadow ${
+              isActive ? "animate-line1" : ""
             }`}
           ></div>
           <div
-            className={`h-2 w-full bg-white rounded-md shadow transition-all duration-200 ease-in-out my-2 ${
-              isActive ? "opacity-0" : ""
+            className={`h-2 w-full bg-white rounded-md shadow my-2 ${
+              isActive ? "animate-line2" : ""
             }`}
           ></div>
           <div
-            className={`h-2 w-full bg-white rounded-md shadow transition-all duration-200 ease-in-out ${
-              isActive ? "transform -rotate-45 -translate-y-1.5" : ""
+            className={`h-2 w-full bg-white rounded-md shadow ${
+              isActive ? "animate-line3" : ""
             }`}
           ></div>
         </div>
