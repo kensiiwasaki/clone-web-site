@@ -5,8 +5,8 @@ const ChallengeComponent = () => {
         <div className="relative overflow-hidden rounded-full w-[180px] h-[180px]">
           <div className="absolute z-0 top-0 left-0 right-0 h-[124px] bg-[#7DDFFC] animate-sky-turns-black"></div>
           <div className="absolute z-2 top-[7px] left-[73px] w-[34px] h-[34px] rounded-full bg-[#FFEF00] animate-sun-goes-down"></div>
-          <div className="absolute top-[67px] left-[35px] h-[57px] w-[116px] bg-[#F4F4F4] animate-pyramide-shading"></div>
-          <div className="absolute top-[67px] left-[93px] h-[57px] w-[58px] bg-[#DDDADA] animate-pyramide-shading"></div>
+          <div className="absolute top-[67px] left-[35px] h-[57px] w-[116px] bg-[#F4F4F4] clip-path-[polygon(0%_100%,_100%_100%,_50%_0)] animate-pyramide-shading"></div>
+          <div className="absolute top-[67px] left-[93px] h-[57px] w-[58px] bg-[#DDDADA] clip-path-[polygon(30%_100%,_100%_100%,_0%_0)] animate-pyramide-shading-reverse"></div>
           <div className="absolute z-2 top-[124px] left-[-80px] h-[30px] w-[360px] bg-[rgba(0,0,0,0.2)] animate-shadow-on-the-floor"></div>
           <div className="absolute z-1 bottom-0 left-0 right-0 h-[56px] bg-[#F0DE75] animate-fading-sand"></div>
         </div>
