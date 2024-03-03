@@ -1,5 +1,3 @@
-import React from "react";
-
 const ChallengeComponents = () => {
   return (
     <div className="absolute top-1/2 left-1/2 w-[400px] h-[400px] mt-[-200px] ml-[-200px] rounded-[2px] shadow-[1px_2px_10px_0px_rgba(0,0,0,0.3)] bg-[#E56262] text-white">
